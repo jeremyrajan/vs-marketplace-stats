@@ -35,7 +35,7 @@ Following properties are supported now:
 * updateCount
 
 ## Infra
-Currently running on AWS Gateway + Lambda
+Currently running on AWS API Gateway + Lambda
 
 ## Development
 Clone the repo, `npm install` and `npm start`.
