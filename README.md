@@ -1,4 +1,4 @@
-# VSCode Extension Marketplace Badge
+# VSCode Extension Stats + Badge
 
 VSCode extension install stats + shields.io badge generator for stats.
 
