@@ -28,7 +28,7 @@ export async function stats(itemName) {
   }
 
   const config = generatePOSTRequest(itemName);
-  const result: any = await doPost(config);
+  const result = await doPost(config);
   const resultJSON = JSON.parse(result);
   return resultJSON.results[0].extensions[0].statistics;
 }
