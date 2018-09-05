@@ -1,0 +1,22 @@
+{
+  "name": "vs-marketplace-badge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp lambda:run",
+    "deploy": "gulp lambda:deploy",
+    "info": "gulp lambda:info"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-lambda-typescript": "^3.0.0",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "boom": "^7.2.0",
+    "got": "^9.2.0"
+  }
+}
