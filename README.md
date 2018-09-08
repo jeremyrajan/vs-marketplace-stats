@@ -12,7 +12,7 @@ URL: https://vsmarketplacebadge.jeremyrajan.com/v1/VSMarketplaceBadge?itemName=<
 > Replace `jeremyrajan.webpack` with your favorite ext.
 
 ## Badge Generator for Stats
-URL: https://vsmarketplacebadge.jeremyrajan.com/v1/VSMarketplaceBadge?itemName=<ext_name>&install=&badge
+URL: https://vsmarketplacebadge.jeremyrajan.com/v1/VSMarketplaceBadge/badge.svg?itemName=<ext_name>&install
 
 ![image](https://user-images.githubusercontent.com/2890683/45105501-f6313280-b166-11e8-81ac-2c45538d8483.png)
 

@@ -20,7 +20,7 @@ const func: Handler = async (event, context, callback) => {
     // if property exists
     if (property) {
       // if badge
-      if (typeof event.queryStringParameters.badge !== 'undefined') {
+      if (event.path.includes('badge.svg')) {
         const propertyName = property.statisticName.toLowerCase();
         const url = `https://img.shields.io/badge/${propertyName}-${property.value}-brightgreen.svg`;
         const response = await got(url);
