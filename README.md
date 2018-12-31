@@ -1,5 +1,7 @@
 # VSCode Extension Stats + Badge
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jeremyrajan/vs-marketplace-stats.svg)](https://greenkeeper.io/)
+
 VSCode extension install stats + shields.io badge generator for stats.
 
 > Please make sure that you use a fully qualified name. Eg: `jeremyrajan.webpack`.
