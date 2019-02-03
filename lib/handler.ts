@@ -37,7 +37,7 @@ export async function stats(itemName) {
     installs.value = installs.value + updateCount.value;
   }
 
-  resultJSON.results[0].extensions[0].statistics = Object.assign({}, resultJSON.results[0].extensions[0].statistics, {
+  resultJSON.results[0].extensions[0].statistics.unshift({
     statisticName: 'version',
     value: resultJSON.results[0].extensions[0].versions[0].version
   });
