@@ -36,5 +36,10 @@ export async function stats(itemName) {
   if (installs && updateCount) {
     installs.value = installs.value + updateCount.value;
   }
+
+  resultJSON.results[0].extensions[0].statistics = Object.assign({}, resultJSON.results[0].extensions[0].statistics, {
+    statisticName: 'version',
+    value: resultJSON.results[0].extensions[0].versions[0].version
+  });
   return resultJSON.results[0].extensions[0].statistics;
 }
