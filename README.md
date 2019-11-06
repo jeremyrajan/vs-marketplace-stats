@@ -29,4 +29,4 @@ Following properties are supported now:
 Running on [zeit.co](https://zeit.co/home) :heart_eyes:
 
 ## Development
-Clone the repo, `npm install` and `npm start`.
+Clone the repo, `npm install` and `now dev`. Please make sure that `now` cli is installed.
