@@ -3,10 +3,9 @@
 VSCode extension install stats + shields.io badge generator for stats.
 
 > Please make sure that you use a fully qualified name. Eg: `jeremyrajan.webpack`.
+eg: https://vsmarketplacebadge.jeremyrajan.com/api?itemName=jeremyrajan.webpack
 
 ### Install Stats
-> eg: Replace `jeremyrajan.webpack` with your favorite ext. Please note, this should be fully qualified name.
-
 URL: `https://vsmarketplacebadge.jeremyrajan.com/api?itemName=<ext_name>`
 
 ## Badge Generator for Stats
@@ -16,8 +15,6 @@ URL: `https://vsmarketplacebadge.jeremyrajan.com/api/badge.svg?itemName=<ext_nam
 
 ## Get stats for Property
 URL: `https://vsmarketplacebadge.jeremyrajan.com/api?itemName=<ext_name>&averagerating`
-
-
 
 Following properties are supported now:
 * install
