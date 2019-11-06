@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp lambda:run",
-    "deploy": "gulp lambda:deploy",
-    "info": "gulp lambda:info"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@now/node": "^1.0.2",
     "aws-lambda-typescript": "^3.0.0",
     "gulp": "^3.9.1"
   },
