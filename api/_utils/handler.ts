@@ -30,12 +30,13 @@ export async function stats(itemName) {
   const config = generatePOSTRequest(itemName);
   const result = await doPost(config);
   const resultJSON = JSON.parse(result);
-  const installs = resultJSON.results[0].extensions[0].statistics.find((s) => s.statisticName === 'install');
-  const updateCount = resultJSON.results[0].extensions[0].statistics.find((s) => s.statisticName === 'updateCount');
-  // calculate the right install count
-  if (installs && updateCount) {
-    installs.value = installs.value + updateCount.value;
-  }
+  /** Not required anymore */
+  // const installs = resultJSON.results[0].extensions[0].statistics.find((s) => s.statisticName === 'install');
+  // const updateCount = resultJSON.results[0].extensions[0].statistics.find((s) => s.statisticName === 'updateCount');
+  // // calculate the right install count
+  // if (installs && updateCount) {
+  //   installs.value = installs.value + updateCount.value;
+  // }
 
   resultJSON.results[0].extensions[0].statistics.unshift({
     statisticName: 'version',
