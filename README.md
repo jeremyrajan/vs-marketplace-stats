@@ -2,8 +2,11 @@
 
 VSCode extension install stats + shields.io badge generator for stats.
 
-> Please make sure that you use a fully qualified name. Eg: `jeremyrajan.webpack`.
+**Please make sure that you use a fully qualified name. Eg: `jeremyrajan.webpack`.**
+
 eg: https://vsmarketplacebadge.jeremyrajan.com/api?itemName=jeremyrajan.webpack
+
+> Data provided by: https://marketplace.visualstudio.com
 
 ### Install Stats
 URL: `https://vsmarketplacebadge.jeremyrajan.com/api?itemName=<ext_name>`
